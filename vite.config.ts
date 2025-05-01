@@ -36,10 +36,10 @@ export default defineConfig({
   server: {
     // Exposes your dev server and makes it accessible for the devices in the same network.
     host: '0.0.0.0',
-    https: {
-      cert: readFileSync(resolve('195.211.167.209+2.pem')),
-      key: readFileSync(resolve('195.211.167.209+2-key.pem')),
-    },
+    // https: {
+    //   cert: readFileSync(resolve('195.211.167.209+2.pem')),
+    //   key: readFileSync(resolve('195.211.167.209+2-key.pem')),
+    // },
   },
 });
 
